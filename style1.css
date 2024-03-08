@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #05161f,
+    #143b4f,
+    #236386,
+    #328fc0,
+    #43beff
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: #fff;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 4rem;
+  width: 20%;
+  padding: 4rem;
+  border-radius: 30px;
+}
+.head {
+  font-size: 3rem;
+  color: #000;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 2rem;
+}
+form input {
+  border-radius: 40px;
+  border: none;
+  padding: 1rem;
+  font-size: 1.25rem;
+  color: #000;
+  background-color: lightgrey;
+  box-shadow: 2px 4px 10px grey;
+}
+button {
+  font-size: 1.25rem;
+  padding: 1rem;
+  border-radius: 100px;
+  border: none;
+  background-color: #623cea;
+  cursor: pointer;
+}
+.signUp {
+  /* margin-top: 5rem; */
+
+  font-size: 1.3rem;
+}
+.signUp a {
+  text-decoration: none;
+  color: #00a3fa;
+}
+#icon {
+  position: relative;
+  bottom: 59px;
+  left: 190px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transform: scale(1.15);
+}
+
+.otherApps {
+  font-size: 3rem;
+}
+.otherApps i {
+  cursor: pointer;
+  padding: 1rem;
+}
+#twit {
+  color: #00a3fa;
+  /* cursor: pointer; */
+}
+img {
+  position: relative;
+  top: 7px;
+  left: 10px;
+  cursor: pointer;
+}
